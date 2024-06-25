@@ -10,10 +10,10 @@ env:
   # Replace with your Orchestrator Values 
   PROJECT_NAME: CICDGitHubTest
   ORCH_FOLDER: CICDGitHubTest
-  ORCH_URL: "https://cloud.uipath.com"
+  ORCH_URL: https://cloud.uipath.com
   ORCH_TENANT: Harshit0012
-  ORCH_CLIENT_ID: ${{secrets.ORCH_CLIENT_ID_Dev}}
-  ORCH_USER_KEY: ${{secrets.ORCH_USER_KEY_Dev}}
+  ORCH_CLIENT_ID: ${{ secrets.ORCH_CLIENT_ID_Dev }}
+  ORCH_USER_KEY: ${{ secrets.ORCH_USER_KEY_Dev }}
   ORCH_ACC_NAME: Harshit0012
   CLI_URL: https://uipath.visualstudio.com/Public.Feeds/_artifacts/feed/UiPath-Official/NuGet/UiPath.CLI.Windows/overview/23.10.8894.39673
 
