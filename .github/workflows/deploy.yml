@@ -1,4 +1,4 @@
-name: Development test workflow
+name: Development workflow
 
 on:
   push:
@@ -8,8 +8,8 @@ on:
 # Here the environment variable is declared in workflow level
 env:
   # Replace with your Orchestrator Values 
-  PROJECT_NAME: "CICDGitHubTest"
-  ORCH_FOLDER: "CICDGitHubTest"
+  PROJECT_NAME: CICDGitHubTest
+  ORCH_FOLDER: CICDGitHubTest
   ORCH_URL: "https://cloud.uipath.com"
   ORCH_TENANT: Harshit0012
   ORCH_CLIENT_ID: ${{secrets.ORCH_CLIENT_ID_Dev}}
