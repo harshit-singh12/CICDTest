@@ -15,7 +15,7 @@ env:
   ORCH_CLIENT_ID: ${{secrets.ORCH_CLIENT_ID_Dev}}
   ORCH_USER_KEY: ${{secrets.ORCH_USER_KEY_Dev}}
   ORCH_ACC_NAME: Harshit0012
-  CLI_URL: "https://uipath.pkgs.visualstudio.com/Public.Feeds/_packaging/UiPath-Official/nuget/v3/flat2/UiPath.CLI.Windows/22.10.8438.32859/UiPath.CLI.Windows.22.10.8438.32859.nupkg"
+  CLI_URL: "https://uipath.visualstudio.com/Public.Feeds/_artifacts/feed/UiPath-Official/NuGet/UiPath.CLI.Windows/overview/23.10.8894.39673"
 
 jobs:
   print-details:
